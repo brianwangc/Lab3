@@ -22,7 +22,8 @@ public class WebScrapper {
         return contents;
     }
     public static void main(String[] unused) {
-        System.out.println(urlToString("http://erdani.com/tdpl/hamlet.txt"));
+        System.out.println(urlToString("http://tgftp.nws.noaa.gov/data/raw/fz/fzus53.klot.srf.lot.txt").length());
     }
+    
 
 }
